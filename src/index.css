@@ -1,13 +1,144 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 233, 233);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.page-footer {
+  text-align: center;
+  padding:0px;
+}
+.authorCard{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.infoPart{
+  margin: 10px;
+  padding: 20px 0;
+}
+
+.homepageContainer {
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.post {
+  padding: 10px;
+margin: 20px;
+border: 1px solid gray;
+border-radius: 10px;
+}
+
+.aboutContainer {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.aboutP {
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.authorsContainer {
+  margin: 50px auto;
+  width: 70%;
+}
+
+.authorsh2{
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+.authorsP {
+  margin: 10px;
+  padding: 30px;
+  border-bottom: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+.postContainer{
+  width: 70%;
+  margin: auto;
+text-align: center;
+padding: 30px;
+}
+
+.col-md-6 {
+  padding: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+
+}
+
+.col-md-12 {
+text-align: center;
+padding-top: 30px;
+}
+
+  .author-link:link{
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: 600;;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .author-link:visited{
+color:lightseagreen;;
+  }
+
+  .link:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .link:hover {
+    color:white
+  }
+  .brand-logo{
+    margin-left: 100px;
+  }
+  .right{
+    margin-right: 80px;
+  }
+  .imgAuthor{
+    border: 3px solid gray;
+  }
+
+  .posth4 {
+    padding: 20px;
+  }
+
+  .authorPost:link:hover {
+    text-decoration: none;
+    color: lightseagreen;
+  }
